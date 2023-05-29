@@ -1,0 +1,11 @@
+<script>
+  function openGmail() {
+    var recipient = 'matheustabela67@gmail.com';
+    var subject = 'Aceitação do contrato';
+    var body = 'O sujeito xxxxxxx aceitou o clausula de contrato entre a academia alive e o cliente externo.';
+    var mailtoUrl = 'mailto:' + encodeURIComponent(recipient) + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    window.location.href = mailtoUrl;
+  }
+</script>
+
+<button onclick="openGmail()">Abrir Gmail</button>
